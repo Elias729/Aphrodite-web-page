@@ -1,1 +1,17 @@
  @import "tailwindcss";
+
+ /** Scrollbar Hidden  **/
+
+ html,
+ body {
+     margin: 0;
+     padding: 0;
+     height: 100%;
+     overflow: auto;
+     scrollbar-width: none;
+ }
+
+ html::-webkit-scrollbar,
+ body::-webkit-scrollbar {
+     display: none;
+ }
