@@ -325,6 +325,67 @@
         </div>
     </div>
 
+    <!-- * appointment Section -->
+
+    <div
+        class="contact-section my-[10%] lg:my-[5%] flex flex-col lg:flex-row bg-[#F9FCFD] overflow-hidden rounded-3xl shadow-lg">
+        <div class="w-full lg:w-[45%]">
+            <img class="w-full h-full object-cover" src="./assets/contact-video.png" alt="Contact Illustration" />
+        </div>
+
+        <div
+            class="flex-1 text-white bg-[url('./assets/contact-bg.png')] bg-cover bg-center flex flex-col justify-center gap-[2rem] p-[8%]">
+            <div class="text-center space-y-3">
+                <p class="uppercase text-[#25B8AF] tracking-widest text-sm">
+                    appointment
+                </p>
+                <h2 class="capitalize text-3xl md:text-4xl xl:text-5xl font-semibold">
+                    Ready to Glow With Us
+                </h2>
+                <p class="text-sm md:text-base text-[#E5E5E5]">
+                    Fill out the form below and our specialist will contact you shortly.
+                </p>
+            </div>
+
+            <form class="flex flex-col gap-[2rem]">
+                <div class="flex flex-col md:flex-row gap-[2rem]">
+                    <input type="text" placeholder="Your Name"
+                        class="w-full bg-transparent border-b-2 border-white/70 focus:border-[#25B8AF] duration-200 outline-none py-[0.6rem] text-lg placeholder-white/80" />
+                    <input type="email" placeholder="Your Email"
+                        class="w-full bg-transparent border-b-2 border-white/70 focus:border-[#25B8AF] duration-200 outline-none py-[0.6rem] text-lg placeholder-white/80" />
+                </div>
+
+                <div class="flex flex-col md:flex-row gap-[2rem]">
+                    <select
+                        class="w-full bg-transparent border-b-2 border-white/70 focus:border-[#25B8AF] duration-200 outline-none py-[0.6rem] text-lg cursor-pointer">
+                        <option disabled selected class="text-gray-700">Date Appointment</option>
+                        <option class="text-black">Today</option>
+                        <option class="text-black">Tomorrow</option>
+                        <option class="text-black">Day After Tomorrow</option>
+                    </select>
+                    <select
+                        class="w-full bg-transparent border-b-2 border-white/70 focus:border-[#25B8AF] duration-200 outline-none py-[0.6rem] text-lg cursor-pointer">
+                        <option disabled selected class="text-gray-700">Type of Service</option>
+                        <option class="text-black">Book a Doctor</option>
+                        <option class="text-black">Get a Nurse</option>
+                        <option class="text-black">Regular Checkup</option>
+                    </select>
+                </div>
+
+                <textarea placeholder="Your Message (Optional)"
+                    class="w-full bg-transparent border-b-2 border-white/70 focus:border-[#25B8AF] duration-200 outline-none py-[0.6rem] text-lg placeholder-white/80 resize-none"
+                    rows="3"></textarea>
+
+                <button type="submit"
+                    class="w-fit self-center mt-[1rem] bg-[#25B8AF] hover:bg-[#1fa198] text-white px-10 py-3 rounded-full text-lg font-medium duration-300 flex items-center gap-3 group">
+                    BOOK NOW
+                    <i class="fa-solid fa-chevron-right group-hover:translate-x-2 duration-300 text-[1rem]"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+
+
 
 
 
